@@ -15,6 +15,7 @@ import org.apache.activemq.ActiveMQConnectionFactory;
 
 public class Consumer {
 	
+	
 	public static void main(String[] args) throws JMSException {
 		ConnectionFactory connectionFactory = new ActiveMQConnectionFactory(ActiveMQConnection.DEFAULT_USER, ActiveMQConnection.DEFAULT_PASSWORD, "tcp://140.143.26.129:61616");
 		Connection connection =   connectionFactory.createConnection();
